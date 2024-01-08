@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+	int j=0;
+	do
+	{
+		printf("Value of variable j is: %d\n", j);
+		j++;
+	}while (j<=3);
+	return 0;
+}
+
+Output:
+Value of variable j is: 0
+Value of variable j is: 1
+Value of variable j is: 2
+Value of variable j is: 3
